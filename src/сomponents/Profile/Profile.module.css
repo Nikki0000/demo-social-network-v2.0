@@ -1,0 +1,29 @@
+.profileInfoBlock {
+  display: block;
+}
+
+.postBlock {
+  display: block;
+  position: relative;
+  height: 50%;
+  width: 50%;
+  /* Значения определяются в зависимости от его размера в % */
+  left: 17%; /* (100% - width) / 2 */
+  top: 25%;
+  max-width: 500px;
+  padding-top: 20px;
+}
+
+.profileAll {
+  
+}
+
+/* .carouselBlock {
+  display: inline-block;
+} */
+
+
+
+
+
+

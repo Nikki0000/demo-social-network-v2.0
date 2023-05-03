@@ -1,0 +1,42 @@
+/* .app-wrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas: 
+  "h h"
+  "n c";
+
+  grid-template-rows: 130px 1fr;
+  grid-template-columns: 2fr 10fr;
+  padding-right: 10%;
+  padding-left: 10%;
+  background-color: rgb(73, 70, 70);
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: #e9dfda;
+  min-height: 100vh;
+}
+
+
+
+@media (max-width: 1225px) {
+  .app-wrapper {
+    grid-template-rows: 100px 1fr;
+  }
+} */
+
+
+/* @media (max-width: 900px) {
+  Sider {
+    width: 200px;
+  }
+} */
+
+
+
+
+
+
+
+

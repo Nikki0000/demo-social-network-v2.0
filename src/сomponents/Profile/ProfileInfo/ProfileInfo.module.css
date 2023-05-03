@@ -1,0 +1,161 @@
+.infoBlock {
+	padding-left: 220px;
+	font-size: 18px;
+}
+
+
+
+.userDataBlock {
+	padding-top: 50px;
+}
+
+
+
+.photoBlock {
+	display: flex;
+	/* border: 3px solid gray; */
+	padding-left: 17%;
+}
+
+.avaBlockAll {
+	display: flex;
+	flex-direction: column;
+}
+.avaBlock {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-between;
+	width: 350px;
+	height: 350px;
+}
+
+.chancheAva {
+	display: flex;
+}
+
+
+.contact {
+	padding-left: 30px;
+}
+
+
+
+
+.inputfile {
+	position: relative;
+	display: inline-block;
+
+}
+.inputfile span {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 16px;
+	vertical-align: middle;
+	color: rgb(255 255 255);
+	text-align: center;
+	border-radius: 8px;
+	background-color: #3373ea;
+	line-height: 22px;
+	height: 40px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+	width: 350px;
+}
+.inputfile input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+ 
+/* Focus */
+.inputfile input[type=file]:focus + span {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+ 
+/* Hover/active */
+.inputfile:hover span {
+	background-color: #2727ce;
+}
+.input-file:active span {
+	background-color: #05029f;
+}
+ 
+/* Disabled */
+.inputfile input[type=file]:disabled + span {
+	background-color: #eee;
+}
+
+
+.titleText {
+	display: block;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+
+
+@media (max-width: 1225px) {
+	.avaBlock {
+		width: 300px;
+		height: 300px;
+	}
+	.inputfile span {
+		width: 300px;
+	}
+}
+
+@media (max-width: 1166px) {
+	.infoBlock {
+		padding-left: 50px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.photoBlock {
+		display: flex;
+		/* border: 3px solid gray; */
+		padding-left: 5%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.avaBlock {
+		width: 200px;
+		height: 200px;
+	}
+	.inputfile span {
+		width: 200px;
+	}
+}
+
+@media (max-width: 850px) {
+	.photoBlock {
+		display: flex;
+		/* border: 3px solid gray; */
+		padding-left: 0%;
+	}
+	.infoBlock {
+		padding-left: 10px;
+	}
+}
+
+@media (max-width: 780px) {
+	.photoBlock {
+		display: block;
+		/* border: 3px solid gray; */
+		padding-bottom: 50px;
+	}
+	.infoBlock {
+		padding-left: 10px;
+	}
+}

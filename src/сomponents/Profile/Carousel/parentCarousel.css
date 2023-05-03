@@ -1,0 +1,18 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+  }
+  
+  .item-1 {
+    background-image: url('./imgCarousel/foto1.jpg');
+  }
+  
+  .item-2 {
+    background-image: url('./imgCarousel/foto2.jpg');
+  }
+  
+  .item-3 {
+    background-image: url('./imgCarousel/foto3.jpg');
+  }

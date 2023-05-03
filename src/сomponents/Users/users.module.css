@@ -1,0 +1,12 @@
+.userPhoto {
+    width: 100px;
+    height: 100px;
+}
+
+.userBlock {
+    padding: 20px;
+
+    display: flex;
+    border: 2px solid rgb(86, 0, 245);
+    margin-top: 10px;
+}

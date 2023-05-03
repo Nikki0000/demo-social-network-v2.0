@@ -1,0 +1,111 @@
+
+
+.formControl.error input,
+.formControl.error textarea {
+    border: solid black 2px;
+}
+
+.formControl.error span {
+    color: black;
+}
+
+.formSummaryError {
+    border: black 2px solid;
+    font-size: 16px;
+    padding: 5px;
+    color: black;
+}
+
+.loginForm {
+    max-width: 600px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.loginHead {
+    padding-left: 100px;
+}
+
+
+
+
+/* CSS */
+.buttonLogin {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.675rem - 1px) calc(1rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.buttonLogin:hover,
+.buttonLogin:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.buttonLogin:hover {
+  transform: translateY(-1px);
+}
+
+.buttonLogin:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.buttonLogin1 {
+    padding-top: 20px;
+}
+
+
+
+.userNameText, .passwordText {
+    padding-bottom: 20px;
+}
+
+
+ @media (max-width: 900px) {
+    .loginHead {
+        padding-left: 50px;
+    }
+    .loginForm {
+        max-width: 600px;
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+} 
+
+@media (max-width: 700px) {
+    .loginHead {
+        padding-left: 0px;
+    }
+    .loginForm {
+        max-width: 600px;
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+} 

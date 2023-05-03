@@ -1,0 +1,20 @@
+.selectedPage {
+    font-weight: bold;
+    border-color: rgb(38, 10, 248);
+}
+
+
+ .pages {
+    text-align: center;
+    padding: 5px;
+}
+
+/*.paginator {
+    margin: 10px;
+}
+
+.pageNumber {
+    padding: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+} */

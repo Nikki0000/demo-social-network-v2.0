@@ -1,0 +1,16 @@
+.bookContainer {
+ padding: 30px;
+}
+
+.headerDetailsBlock {
+    display: flex;
+}
+
+.headerDetailsBlockText {
+    display: block;
+    padding-left: 50px;
+}
+
+.descriptionBlock {
+    padding-top: 50px;
+}
