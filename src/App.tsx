@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import 'antd/dist/reset.css'
+//import 'antd/dist/reset.css'
 //import Header from './сomponents/Header/Header';
 import Navbar from './сomponents/Navbar/Navbar';
 import News from './сomponents/News/News';
@@ -77,7 +76,11 @@ class App extends React.Component<MapPropsType & DispatchPropsType> {
               <MenuItem style={{fontSize: '20px'}}><NavLink to="/dialogs">Message</NavLink></MenuItem>
               <MenuItem style={{fontSize: '20px'}}><NavLink to="/news">News</NavLink></MenuItem>
             </Menu>
+
+            
           </Sider>
+          
+          
           <Content style={{ padding: '0 24px', minHeight: 280 }}>
           <Routes>
             <Route path='/' element={<Navigate to="/profile" />} />
@@ -92,7 +95,7 @@ class App extends React.Component<MapPropsType & DispatchPropsType> {
             <Route path='/sectionbook' element={ <BookSection/> } >
               <Route path=':id' element={<BookSection/>}/>
             </Route>
-            <Route path='*' element={<div>404 NOT FOUND</div>}/>
+            <Route path='*' element={<div className='test1'>404 NOT FOUND</div>}/>
           </Routes>
           </Content>
         </Layout>

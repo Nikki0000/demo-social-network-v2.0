@@ -1,3 +1,6 @@
+
+
+
 /* .app-wrapper {
   margin: 0 auto;
   display: grid;
@@ -35,6 +38,16 @@
 
 
 
+
+
+/* @media (max-width: 900px) {
+  .test {
+    width: 200px;
+  }
+  .test2 {
+    width: 200px;
+  }
+}  */
 
 
 
