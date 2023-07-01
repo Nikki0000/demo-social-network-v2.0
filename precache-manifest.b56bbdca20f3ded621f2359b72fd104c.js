@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b5422199d13911b059b7",
-    "url": "/demo-social-network-v2.0/static/css/main.880c4257.chunk.css"
+    "revision": "adf7e49d30dc45bfb1b3",
+    "url": "/demo-social-network-v2.0/static/css/main.1db6f919.chunk.css"
   },
   {
-    "revision": "b5422199d13911b059b7",
-    "url": "/demo-social-network-v2.0/static/js/main.b5422199.chunk.js"
+    "revision": "adf7e49d30dc45bfb1b3",
+    "url": "/demo-social-network-v2.0/static/js/main.adf7e49d.chunk.js"
   },
   {
     "revision": "5545d045c0f52ce03c57",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/demo-social-network-v2.0/static/media/Spinner-1s-200px.ae691311.svg"
   },
   {
-    "revision": "b66a4e83fe956e3689cf5897d04dfada",
+    "revision": "259e0b57de5ae07bc24f38874a9973c4",
     "url": "/demo-social-network-v2.0/index.html"
   }
 ];
