@@ -1,7 +1,7 @@
 {
   "main.css": "/demo-social-network-v2.0/static/css/main.08d730ec.chunk.css",
-  "main.js": "/demo-social-network-v2.0/static/js/main.f42dce97.chunk.js",
-  "main.js.map": "/demo-social-network-v2.0/static/js/main.f42dce97.chunk.js.map",
+  "main.js": "/demo-social-network-v2.0/static/js/main.9d2468a3.chunk.js",
+  "main.js.map": "/demo-social-network-v2.0/static/js/main.9d2468a3.chunk.js.map",
   "static/js/1.5545d045.chunk.js": "/demo-social-network-v2.0/static/js/1.5545d045.chunk.js",
   "static/js/1.5545d045.chunk.js.map": "/demo-social-network-v2.0/static/js/1.5545d045.chunk.js.map",
   "static/js/2.328e50bb.chunk.js": "/demo-social-network-v2.0/static/js/2.328e50bb.chunk.js",
@@ -12,6 +12,6 @@
   "static/media/Spinner-1s-200px.svg": "/demo-social-network-v2.0/static/media/Spinner-1s-200px.ae691311.svg",
   "static/css/main.08d730ec.chunk.css.map": "/demo-social-network-v2.0/static/css/main.08d730ec.chunk.css.map",
   "index.html": "/demo-social-network-v2.0/index.html",
-  "precache-manifest.a6d501ad7d1a36f5872a6ac496826a45.js": "/demo-social-network-v2.0/precache-manifest.a6d501ad7d1a36f5872a6ac496826a45.js",
+  "precache-manifest.4d1701151c107b6fa0f9565aec9bda19.js": "/demo-social-network-v2.0/precache-manifest.4d1701151c107b6fa0f9565aec9bda19.js",
   "service-worker.js": "/demo-social-network-v2.0/service-worker.js"
 }
